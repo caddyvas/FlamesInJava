@@ -14,6 +14,7 @@ public class Flames {
         doCalc(finalCount);
     }
 
+    // get count after comparing names
     private static int getCountByNameComparison(String name1, String name2) {
         name1 = name1.toLowerCase().replaceAll(" ", "");
         name2 = name2.toLowerCase().replaceAll(" ", "");
